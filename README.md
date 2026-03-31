@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&section=header&reversal=false&text=Yosia's%20Dev%20Space&fontSize=50&fontColor=FFFFFF&fontAlign=50&fontAlignY=40&stroke=-&animation=blinking&desc=Siswa%20X%20TKJT%203%20|%20AI%20%26%20Python%20Enthusiast&descSize=15&descAlign=50&descAlignY=65&textBg=false&color=gradient" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&section=header&reversal=false&text=Yosia%27s%20Dev%20Space&fontSize=50&fontColor=FFFFFF&fontAlign=50&fontAlignY=40&stroke=-&animation=blinking&desc=Mahasiswa%20Teknik%20Informatika%20%7C%20AI%20%26%20Python%20Enthusiast&descSize=15&descAlign=50&descAlignY=65&textBg=false&color=gradient" width="100%" alt="Header Banner" />
 
   <br />
 
@@ -34,7 +34,7 @@
 <br />
 
 ## 🧑‍💻 About Me
-Halo! 👋 Aku siswa kelas **X TKJT 3** yang lagi ambis banget mendalami dunia pemrograman.
+Halo! 👋 Aku Mahasiswa jurusan **Teknik Informatika** yang lagi ambis banget mendalami dunia pemrograman.
 
 * 🤖 **AI Obsessed:** Lagi asik ngulik gimana cara kerja kecerdasan buatan.
 * 🐍 **Python Learner:** Fokus di fundamental Python (lagi hobi bikin program-program logika seru!).
@@ -95,5 +95,5 @@ Halo! 👋 Aku siswa kelas **X TKJT 3** yang lagi ambis banget mendalami dunia p
   <p><i>Thanks for stopping by! You are visitor number:</i></p>
   <img src="https://count.getloli.com/@:YosiaCoKR?theme=3d-num&padding=5&offset=0&scale=1&align=top&pixelated=1&darkmode=auto" alt="Visitor Count" />
   <br />
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=30&section=footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=30&section=footer" width="100%" alt="Footer Banner" />
 </div>

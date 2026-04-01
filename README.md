@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&section=header&reversal=false&text=Yosia%27s%20Dev%20Space&fontSize=50&fontColor=FFFFFF&fontAlign=50&fontAlignY=40&stroke=-&animation=blinking&desc=Mahasiswa%20Teknik%20Informatika%20%7C%20AI%20%26%20Python%20Enthusiast&descSize=15&descAlign=50&descAlignY=65&textBg=false&color=gradient" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=auto&height=200&section=header&text=Yosia%27s%20Dev%20Space&fontSize=50&animation=fadeIn&desc=Mahasiswa%20Teknik%20Informatika%20|%20AI%20%26%20Python%20Enthusiast&descSize=15" width="100%" alt="Header Banner" />
 
   <br />
 
@@ -12,22 +12,13 @@
 
 <div align="center">
   <a href="https://www.linkedin.com/in/yosia-sipahutar-778021333/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&style=for-the-badge" height="25" alt="linkedin logo" />
   </a>
   <a href="https://x.com/RAMIIWUVU" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo" />
+    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&style=for-the-badge" height="25" alt="twitter logo" />
   </a>
   <a href="https://www.instagram.com/yosia.co.kr/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo" />
-  </a>
-</div>
-
-<br />
-
-## 🏆 GitHub Trophies
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=YosiaCoKR&theme=dracula&no-frame=true&no-bg=true&margin-w=15" alt="YosiaCoKR Trophies" />
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&style=for-the-badge" height="25" alt="instagram logo" />
   </a>
 </div>
 
@@ -67,8 +58,8 @@ Halo! 👋 Aku Mahasiswa jurusan **Teknik Informatika** yang lagi ambis banget m
 ## 📊 Analytics & Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=YosiaCoKR&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="Languages Graph" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YosiaCoKR&theme=dracula&hide_border=false" height="150" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YosiaCoKR&layout=compact&theme=dracula" height="150" alt="Languages Graph" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YosiaCoKR&theme=dracula" height="150" alt="GitHub Streak" />
 </div>
 
 <br />
@@ -94,5 +85,5 @@ Halo! 👋 Aku Mahasiswa jurusan **Teknik Informatika** yang lagi ambis banget m
   <p><i>Thanks for stopping by! You are visitor number:</i></p>
   <img src="https://count.getloli.com/@:YosiaCoKR?theme=3d-num&padding=5&offset=0&scale=1&align=top&pixelated=1&darkmode=auto" alt="Visitor Count" />
   <br />
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=30&section=footer" width="100%" alt="Footer Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=auto&height=30&section=footer" width="100%" alt="Footer Banner" />
 </div>

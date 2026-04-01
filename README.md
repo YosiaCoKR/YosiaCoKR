@@ -1,10 +1,8 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=auto&height=180&section=header&text=Yosia%27s%20Dev%20Space&fontSize=50&desc=Mahasiswa%20Teknik%20Informatika%20|%20AI%20%26%20Python%20Enthusiast&descSize=16" width="100%" alt="Header Banner" />
-
-  <br />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&pause=1000&color=36BCF7&center=true&vCenter=true&width=800&height=100&lines=Yosia's+Dev+Space" alt="Header Text" />
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Computer+Science+Student;Exploring+the+world+of+AI;Python+Developer+in+the+making;Building+cool+stuff+with+Code!" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=71C6FF&center=true&vCenter=true&width=600&lines=Computer+Science+Student;Exploring+the+world+of+AI;Python+Developer+in+the+making;Building+cool+stuff+with+Code!" alt="Typing SVG" />
   </a>
 </div>
 
@@ -55,14 +53,7 @@ Halo! 👋 Aku Mahasiswa jurusan **Teknik Informatika** yang lagi ambis banget m
 
 <br />
 
-## 📊 Analytics & Activity
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YosiaCoKR&layout=compact&theme=dracula&cache_seconds=1800" height="150" alt="Languages Graph" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YosiaCoKR&theme=dracula" height="150" alt="GitHub Streak" />
-</div>
-
-<br />
+## 📊 Activity
 
 <div align="center">
   <picture>
@@ -84,6 +75,4 @@ Halo! 👋 Aku Mahasiswa jurusan **Teknik Informatika** yang lagi ambis banget m
 <div align="center">
   <p><i>Thanks for stopping by! You are visitor number:</i></p>
   <img src="https://count.getloli.com/@:YosiaCoKR?theme=3d-num&padding=5&offset=0&scale=1&align=top&pixelated=1&darkmode=auto" alt="Visitor Count" />
-  <br />
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=auto&height=30&section=footer" width="100%" alt="Footer Banner" />
 </div>

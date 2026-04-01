@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=auto&height=200&section=header&text=Yosia%27s%20Dev%20Space&fontSize=50&animation=fadeIn&desc=Mahasiswa%20Teknik%20Informatika%20|%20AI%20%26%20Python%20Enthusiast&descSize=15" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=auto&height=180&section=header&text=Yosia%27s%20Dev%20Space&fontSize=50&desc=Mahasiswa%20Teknik%20Informatika%20|%20AI%20%26%20Python%20Enthusiast&descSize=16" width="100%" alt="Header Banner" />
 
   <br />
 
@@ -58,7 +58,7 @@ Halo! 👋 Aku Mahasiswa jurusan **Teknik Informatika** yang lagi ambis banget m
 ## 📊 Analytics & Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YosiaCoKR&layout=compact&theme=dracula" height="150" alt="Languages Graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YosiaCoKR&layout=compact&theme=dracula&cache_seconds=1800" height="150" alt="Languages Graph" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=YosiaCoKR&theme=dracula" height="150" alt="GitHub Streak" />
 </div>
 

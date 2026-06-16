@@ -8,9 +8,6 @@
 <a href="https://www.linkedin.com/in/yosia-sipahutar-778021333/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="24"/>
 </a>
-<a href="https://x.com/RAMIIWUVU">
-  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" height="24"/>
-</a>
 <a href="https://www.instagram.com/yosia.co.kr/">
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="24"/>
 </a>
@@ -23,11 +20,11 @@
 
 ```python
 yosia = {
-    "role":     "CS Student @ Universitas Budi Luhur",
-    "focus":    ["Machine Learning", "Data Science", "AI"],
-    "learning": ["Deep Learning", "MLOps", "Data Engineering"],
+    "role":     "CS Student @ Universitas Tarumanagara",
+    "focus":    ["Machine Learning", "Data Science", "AI", "Web Development"],
+    "learning": ["Deep Learning", "Machine Learning"],
     "fun_fact": "Belajar lebih nempel kalau sambil dengerin musik 🎧",
-    "goal":     "Jadi AI Engineer yang bisa bikin impact nyata"
+    "goal":     "Masuk Fasilkom UI"
 }
 ```
 

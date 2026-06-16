@@ -2,7 +2,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=14&pause=1000&color=888780&center=true&vCenter=true&width=600&height=30&lines=YOSIA+SIPAHUTAR" alt="name" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&height=70&lines=CS+Student+%26+AI+Explorer;Chasing+%22Fasilkom+UI%22+dream;Building+things+that+matter." alt="Header" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&height=70&lines=CS+Student+%26+AI+Explorer;Building+things+that+matter." alt="Header" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=71C6FF&center=true&vCenter=true&width=600&height=30&lines=%40+Universitas+Tarumanagara+%C2%B7+Jakarta%2C+ID" alt="Location" />
 
@@ -34,7 +34,6 @@ const yosia = {
   role       : "CS Student",
   university : "Universitas Tarumanagara",
   focus      : ["Machine Learning", "Data Science", "AI", "Web Dev"],
-  currentGoal: "Masuk Fasilkom UI 🎯",
   funFact    : "Code + musik = peak focus 🎧",
   available  : true
 }

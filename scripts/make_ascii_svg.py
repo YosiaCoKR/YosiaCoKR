@@ -10,7 +10,12 @@ ROW_DUR, ROW_GAP = 0.35, 0.06  # seconds per row wipe, stagger between rows
 
 img = Image.open("source-prepped.png").convert("L")
 rows = round(COLS * img.height / img.width * CW / LH)
-px = img.resize((COLS, rows)).load()
+img = img.resize((COLS, rows))
+# stretch the subject's tones over the full ramp; the white background stays blank
+subj = sorted(v for v in img.tobytes() if v < 250) or [0, 249]
+lo, hi = subj[len(subj) // 50], subj[-len(subj) // 50 - 1]
+img = img.point(lambda v: 255 if v >= 250 else max(0, min(249, (v - lo) * 249 // max(1, hi - lo))))
+px = img.load()
 
 lines = []
 for y in range(rows):
@@ -25,9 +30,10 @@ for y, line in enumerate(lines):
     if not line:
         continue
     begin, ty, wide = y * ROW_GAP, 5 + y * LH, len(line) * CW
+    end, k = begin + ROW_DUR, begin / (begin + ROW_DUR)
     out.append(
-        f'<clipPath id="r{y}"><rect x="5" y="{ty}" height="{LH}" width="0">'
-        f'<animate attributeName="width" from="0" to="{wide}" begin="{begin:.2f}s" dur="{ROW_DUR}s" fill="freeze"/></rect></clipPath>'
+        f'<clipPath id="r{y}"><rect x="5" y="{ty}" height="{LH}" width="{wide}">'
+        f'<animate attributeName="width" values="0;0;{wide}" keyTimes="0;{k:.3f};1" dur="{end:.2f}s" fill="freeze"/></rect></clipPath>'
         f'<text x="5" y="{ty + FONT}" clip-path="url(#r{y})">{escape(line)}</text>'
         f'<rect y="{ty}" width="{CW}" height="{LH}" fill="#c9d1d9" opacity="0">'
         f'<animate attributeName="x" from="5" to="{5 + wide}" begin="{begin:.2f}s" dur="{ROW_DUR}s" fill="freeze"/>'

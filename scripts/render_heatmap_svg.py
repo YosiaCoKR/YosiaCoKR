@@ -2,7 +2,7 @@
 import json
 
 PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]  # GitHub levels 0-4
-CELL, GAP, LEFT, TOP = 13, 3, 34, 30
+CELL, GAP, LEFT, TOP = 12, 3, 34, 30
 STEP = CELL + GAP
 MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
 
@@ -13,7 +13,7 @@ W, H = 860, TOP + 7 * STEP + 56
 
 out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">',
        "<style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;fill:#8b949e}"
-       ".c{opacity:0;animation:in .35s ease-out forwards}"
+       ".c{animation:in .35s ease-out both}"
        "@keyframes in{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}</style>",
        f'<rect width="{W}" height="{H}" rx="8" fill="#0d1117"/>']
 

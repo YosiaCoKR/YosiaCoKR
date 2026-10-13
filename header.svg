@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 130" width="860" height="130">
+<rect width="860" height="130" rx="8" fill="#0d1117"/>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="start">
+<clipPath id="h0"><rect x="223.0" y="14" height="42.0" width="414.0"><animate attributeName="width" values="0;0;414.0" keyTimes="0;0.268;1" dur="1.12s" fill="freeze"/></rect></clipPath><text x="223.0" y="44" font-size="30" fill="#3fb950" textLength="414.0" clip-path="url(#h0)">Hi, I'm Yosia Sipahutar</text>
+<clipPath id="h1"><rect x="223.6" y="58" height="22.4" width="412.8"><animate attributeName="width" values="0;0;412.8" keyTimes="0;0.472;1" dur="2.91s" fill="freeze"/></rect></clipPath><text x="223.6" y="74" font-size="16" fill="#c9d1d9" textLength="412.8" clip-path="url(#h1)">Student @ Tarumanagara University · Jakarta</text>
+<clipPath id="h2"><rect x="218.8" y="88" height="22.4" width="422.4"><animate attributeName="width" values="0;0;422.4" keyTimes="0;0.668;1" dur="4.73s" fill="freeze"/></rect></clipPath><text x="218.8" y="104" font-size="16" fill="#8b949e" textLength="422.4" clip-path="url(#h2)">Machine learning · forecasting · dev tooling</text>
+<rect x="645.2" y="90" width="9.6" height="16" fill="#3fb950"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+</g></svg>

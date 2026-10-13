@@ -1,11 +1,15 @@
 <div align="center">
 
+<img src="./header.svg" width="860" alt="Hi, I'm Yosia Sipahutar" />
+
+<br><br>
+
 <h3><code>yosia@github ~ $ ./contributions.sh</code></h3>
 <img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap" />
 
 <br><br>
 
-<h3><code>yosia@github ~ $ whoami</code></h3>
+<h3><code>yosia@github ~ $ neofetch</code></h3>
 <table>
   <tr>
     <td valign="top"><img src="./ascii.svg" width="370" alt="ASCII portrait" /></td>

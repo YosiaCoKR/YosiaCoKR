@@ -9,10 +9,8 @@ ROWS = [
     ("Now", "Student @ Tarumanagara University"),
     ("Location", "DKI Jakarta, Indonesia"),
     ("Stack", "Python · JavaScript · TypeScript · PHP"),
-    ("Focus", "Machine learning & forecasting"),
-    ("Projects", "pangan-forecasting · sales-forecasting"),
-    ("", "converts-to-markdown"),
-    ("Tools", "VS Code · Cursor · Kiro · Antigravity"),
+    ("Focus", "Machine learning, AI, Data Science, Web Development"),
+    ("Tools", "VS Code · Cursor · Claude Code · ChatGPT"),
     ("Motto", "Still Learning."),
     ("Contact", "github.com/YosiaCoKR"),
 ]

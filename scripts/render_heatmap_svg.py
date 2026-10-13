@@ -15,7 +15,7 @@ out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W
        "<style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;fill:#8b949e}"
        ".c{animation:in .35s ease-out both}"
        "@keyframes in{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}</style>",
-       f'<rect width="{W}" height="{H}" rx="8" fill="#0d1117"/>']
+       f'<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="8" fill="#0d1117" stroke="#30363d"/>']
 
 for i, label in ((1, "Mon"), (3, "Wed"), (5, "Fri")):
     out.append(f'<text x="4" y="{TOP + i * STEP + 10}">{label}</text>')

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 191" width="860" height="191">
 <style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;fill:#8b949e}.c{animation:in .35s ease-out both}@keyframes in{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}</style>
-<rect width="860" height="191" rx="8" fill="#0d1117"/>
+<rect x=".5" y=".5" width="859" height="190" rx="8" fill="#0d1117" stroke="#30363d"/>
 <text x="4" y="55">Mon</text>
 <text x="4" y="85">Wed</text>
 <text x="4" y="115">Fri</text>

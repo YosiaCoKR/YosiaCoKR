@@ -9,7 +9,7 @@ LINES = [  # (text, font size, color)
 W, CPS = 860, 28  # width, typed characters per second
 
 out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} 130" width="{W}" height="130">',
-       f'<rect width="{W}" height="130" rx="8" fill="#0d1117"/>',
+       f'<rect x=".5" y=".5" width="{W - 1}" height="129" rx="8" fill="#0d1117" stroke="#30363d"/>',
        '<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="start">']
 t, y = 0.3, 0
 for i, (text, size, color) in enumerate(LINES):

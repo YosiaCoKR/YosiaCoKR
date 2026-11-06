@@ -1,7 +1,7 @@
 {
  "user": "YosiaCoKR",
- "total": 131,
- "current_streak": 1,
+ "total": 139,
+ "current_streak": 2,
  "longest_streak": 6,
  "best_day": {
   "date": "2026-11-02",
@@ -20,7 +20,7 @@
   "2026-08": 20,
   "2026-09": 26,
   "2026-10": 26,
-  "2026-11": 16
+  "2026-11": 24
  },
  "days": [
   {
@@ -1601,21 +1601,21 @@
   {
    "date": "2026-06-15",
    "count": 3,
-   "level": 1,
+   "level": 2,
    "week": 32,
    "dow": 1
   },
   {
    "date": "2026-06-16",
    "count": 3,
-   "level": 1,
+   "level": 2,
    "week": 32,
    "dow": 2
   },
   {
    "date": "2026-06-17",
    "count": 6,
-   "level": 2,
+   "level": 3,
    "week": 32,
    "dow": 3
   },
@@ -1664,7 +1664,7 @@
   {
    "date": "2026-06-24",
    "count": 3,
-   "level": 1,
+   "level": 2,
    "week": 33,
    "dow": 3
   },
@@ -1720,7 +1720,7 @@
   {
    "date": "2026-07-02",
    "count": 3,
-   "level": 1,
+   "level": 2,
    "week": 34,
    "dow": 4
   },
@@ -1734,7 +1734,7 @@
   {
    "date": "2026-07-04",
    "count": 3,
-   "level": 1,
+   "level": 2,
    "week": 34,
    "dow": 6
   },
@@ -1958,7 +1958,7 @@
   {
    "date": "2026-08-05",
    "count": 7,
-   "level": 2,
+   "level": 4,
    "week": 39,
    "dow": 3
   },
@@ -2063,7 +2063,7 @@
   {
    "date": "2026-08-20",
    "count": 5,
-   "level": 2,
+   "level": 3,
    "week": 41,
    "dow": 4
   },
@@ -2182,7 +2182,7 @@
   {
    "date": "2026-09-06",
    "count": 6,
-   "level": 2,
+   "level": 3,
    "week": 44,
    "dow": 0
   },
@@ -2287,7 +2287,7 @@
   {
    "date": "2026-09-21",
    "count": 3,
-   "level": 1,
+   "level": 2,
    "week": 46,
    "dow": 1
   },
@@ -2343,7 +2343,7 @@
   {
    "date": "2026-09-29",
    "count": 3,
-   "level": 1,
+   "level": 2,
    "week": 47,
    "dow": 2
   },
@@ -2420,7 +2420,7 @@
   {
    "date": "2026-10-10",
    "count": 3,
-   "level": 1,
+   "level": 2,
    "week": 48,
    "dow": 6
   },
@@ -2601,10 +2601,17 @@
   },
   {
    "date": "2026-11-05",
+   "count": 8,
+   "level": 4,
+   "week": 52,
+   "dow": 4
+  },
+  {
+   "date": "2026-11-06",
    "count": 0,
    "level": 0,
    "week": 52,
-   "dow": 4
+   "dow": 5
   }
  ]
 }

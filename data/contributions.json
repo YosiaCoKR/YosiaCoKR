@@ -1,7 +1,7 @@
 {
  "user": "YosiaCoKR",
- "total": 185,
- "current_streak": 3,
+ "total": 186,
+ "current_streak": 1,
  "longest_streak": 6,
  "best_day": {
   "date": "2026-11-11",
@@ -20,7 +20,7 @@
   "2026-08": 20,
   "2026-09": 26,
   "2026-10": 26,
-  "2026-11": 70
+  "2026-11": 71
  },
  "days": [
   {
@@ -2605,6 +2605,13 @@
    "level": 0,
    "week": 52,
    "dow": 4
+  },
+  {
+   "date": "2026-11-13",
+   "count": 1,
+   "level": 1,
+   "week": 52,
+   "dow": 5
   }
  ]
 }

@@ -1,4 +1,5 @@
 """source-prepped.png -> ascii.svg, a monochrome portrait that types itself in row by row."""
+
 from xml.sax.saxutils import escape
 
 from PIL import Image
@@ -15,7 +16,9 @@ img = img.resize((COLS, rows))
 # stretch the subject's tones over the full ramp; the white background stays blank
 subj = sorted(v for v in img.tobytes() if v < 250) or [0, 249]
 lo, hi = subj[len(subj) // 50], subj[-len(subj) // 50 - 1]
-img = img.point(lambda v: 255 if v >= 250 else max(0, min(249, (v - lo) * 249 // max(1, hi - lo))))
+img = img.point(
+    lambda v: 255 if v >= 250 else max(0, min(249, (v - lo) * 249 // max(1, hi - lo)))
+)
 px = img.load()
 
 lines = []
@@ -24,13 +27,15 @@ for y in range(rows):
     lines.append(line.rstrip())
 
 W, H = COLS * CW + 20, rows * LH + 20 + BAR
-out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.0f} {H}" width="{W:.0f}" height="{H}">',
-       f'<rect x=".5" y=".5" width="{W - 1:.0f}" height="{H - 1}" rx="8" fill="#0d1117" stroke="#30363d"/>',
-       '<circle cx="20" cy="18" r="6" fill="#ff5f56"/><circle cx="40" cy="18" r="6" fill="#ffbd2e"/>'
-       '<circle cx="60" cy="18" r="6" fill="#27c93f"/>',
-       f'<text x="{W / 2:.0f}" y="22" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" '
-       f'font-size="12" fill="#8b949e">portrait.txt</text>',
-       f'<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="{FONT}" fill="#c9d1d9" xml:space="preserve">']
+out = [
+    f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.0f} {H}" width="{W:.0f}" height="{H}">',
+    f'<rect x=".5" y=".5" width="{W - 1:.0f}" height="{H - 1}" rx="8" fill="#0d1117" stroke="#30363d"/>',
+    '<circle cx="20" cy="18" r="6" fill="#ff5f56"/><circle cx="40" cy="18" r="6" fill="#ffbd2e"/>'
+    '<circle cx="60" cy="18" r="6" fill="#27c93f"/>',
+    f'<text x="{W / 2:.0f}" y="22" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" '
+    f'font-size="12" fill="#8b949e">portrait.txt</text>',
+    f'<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="{FONT}" fill="#c9d1d9" xml:space="preserve">',
+]
 for y, line in enumerate(lines):
     if not line:
         continue

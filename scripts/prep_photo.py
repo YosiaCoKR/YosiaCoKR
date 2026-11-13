@@ -2,6 +2,7 @@
 
 usage: python scripts/prep_photo.py source-photo.jpg   -> source-prepped.png
 """
+
 import sys
 
 import cv2

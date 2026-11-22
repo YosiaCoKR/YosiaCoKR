@@ -18,4 +18,9 @@
   </tr>
 </table>
 
+<br>
+
+<h3><code>yosia@github ~ $ fortune | catsay</code></h3>
+<img src="./fortune.svg" width="860" alt="Quote of the day" />
+
 </div>

@@ -5,14 +5,14 @@ import re
 import textwrap
 from xml.sax.saxutils import escape
 
-TITLE = "yosia@github"
+TITLE = "yosiacokr@github"
 ROWS = [
     ("Name", "Yosia Sipahutar"),
     ("Now", "CS Student"),
     ("Location", "DKI Jakarta, Indonesia"),
     ("Stack", "Python · JavaScript · TypeScript · PHP"),
-    ("Focus", "Machine Learning, AI, Data Science, Web Development"),
-    ("Tools", "VS Code · Cursor · Claude Code · ChatGPT"),
+    ("Focus", "Machine Learning, AI, Data Science, Deep Learning, Web Development"),
+    ("Tools", "VS Code · Cursor · Claude Code · Codex · OpenCode · GitHub Copilot"),
     ("Motto", "Still Learning."),
     ("Contact", "github.com/YosiaCoKR"),
 ]

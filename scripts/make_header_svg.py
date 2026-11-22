@@ -5,7 +5,11 @@ from xml.sax.saxutils import escape
 LINES = [  # (text, font size, color)
     ("Hi, I'm Yosia Sipahutar", 30, "#3fb950"),
     ("Student @ Tarumanagara University · Jakarta", 16, "#c9d1d9"),
-    ("Machine Learning · Software Development · AI · Data Science", 16, "#8b949e"),
+    (
+        "Machine Learning · Software Development · AI · Data Science, · Deep Learning",
+        16,
+        "#8b949e",
+    ),
 ]
 W, CPS = 860, 28  # width, typed characters per second
 

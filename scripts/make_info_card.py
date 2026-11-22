@@ -65,23 +65,19 @@ for n, (i, key, val) in enumerate(LINES):
         f'<tspan x="130" fill="#c9d1d9">{escape(val)}</tspan></text></g>'
     )
 delay = "" if STATIC else f' style="animation-delay:{0.3 + len(LINES) * 0.15:.2f}s"'
-blocks = [
-    "#484f58",
-    "#ff7b72",
-    "#3fb950",
-    "#d29922",
-    "#58a6ff",
-    "#bc8cff",
-    "#39c5cf",
-    "#c9d1d9",
-]
+# "still learning" bar that keeps refilling; full width when animation is off
+bw = W - 40
+fill = (
+    ""
+    if STATIC
+    else f'<animate attributeName="width" values="0;{bw};{bw}" keyTimes="0;.8;1" dur="4s" repeatCount="indefinite"/>'
+)
 out.append(
     f'<g class="l"{delay}>'
-    + "".join(
-        f'<rect x="{20 + k * 26}" y="{H - 40}" width="22" height="16" rx="3" fill="{c}"/>'
-        for k, c in enumerate(blocks)
-    )
-    + "</g>"
+    f'<text x="20" y="{H - 40}" fill="#8b949e">loading skills…</text>'
+    f'<rect x="20" y="{H - 30}" width="{bw}" height="8" rx="4" fill="#161b22"/>'
+    f'<rect x="20" y="{H - 30}" width="{bw}" height="8" rx="4" fill="url(#tx)">{fill}</rect>'
+    "</g>"
 )
 out.append("</svg>")
 open("info-card.svg", "w").write("\n".join(out))

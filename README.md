@@ -6,6 +6,7 @@
 
 <h3><code>yosia@github ~ $ ./contributions.sh</code></h3>
 <img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap" />
+<img src="./activity.svg" width="860" alt="Contributions per month" />
 
 <br><br>
 

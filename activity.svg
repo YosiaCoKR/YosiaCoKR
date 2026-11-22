@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 190" width="860" height="190">
+<style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;fill:#8b949e}.ln{stroke-dasharray:1;animation:draw 2.4s ease-out both}.ar{animation:fade 1s 1.6s ease-out both}@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}@keyframes fade{from{opacity:0}to{opacity:1}}</style>
+<defs><linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0.0" stop-color="#f778ba"/><stop offset="0.5" stop-color="#bc8cff"/><stop offset="1.0" stop-color="#58a6ff"/></linearGradient><linearGradient id="tx" x1="0" y1="0" x2="1" y2="0"><stop offset="0.0" stop-color="#f778ba"/><stop offset="0.5" stop-color="#bc8cff"/><stop offset="1.0" stop-color="#58a6ff"/></linearGradient><linearGradient id="ar" x1="0" y1="52" x2="0" y2="146" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f778ba" stop-opacity=".35"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></linearGradient></defs><rect x="1" y="1" width="858" height="188" rx="10" fill="#0d1117" stroke="url(#bd)" stroke-width="1.5"/>
+<text x="50" y="28" style="fill:#c9d1d9">contributions per month</text>
+<path transform="translate(820 24)" fill="#f778ba" d="M0 -7Q0 0 7 0Q0 0 0 7Q0 0 -7 0Q0 0 0 -7Z"><animate attributeName="opacity" values=".15;1;.15" dur="2.4s" begin="0s" repeatCount="indefinite"/></path>
+<line x1="50" y1="99.0" x2="830" y2="99.0" stroke="#21262d" stroke-dasharray="3 4"/><text x="42" y="103.0" text-anchor="end">44</text>
+<line x1="50" y1="52.0" x2="830" y2="52.0" stroke="#21262d" stroke-dasharray="3 4"/><text x="42" y="56.0" text-anchor="end">88</text>
+<path class="ar" d="M50.0 146.0C60.8 146.0 93.3 146.0 115.0 146.0C136.7 146.0 158.3 146.0 180.0 146.0C201.7 146.0 223.3 146.0 245.0 146.0C266.7 145.6 288.3 144.0 310.0 143.9C331.7 143.7 353.3 145.5 375.0 144.9C396.7 144.4 418.3 144.8 440.0 140.7C461.7 136.6 483.3 121.4 505.0 120.4C526.7 119.3 548.3 133.5 570.0 134.2C591.7 135.0 613.3 127.3 635.0 124.6C656.7 122.0 678.3 119.3 700.0 118.2C721.7 117.2 743.3 129.3 765.0 118.2C786.7 107.2 819.2 63.0 830.0 52.0L830.0 146L50 146Z" fill="url(#ar)"/>
+<path class="ln" d="M50.0 146.0C60.8 146.0 93.3 146.0 115.0 146.0C136.7 146.0 158.3 146.0 180.0 146.0C201.7 146.0 223.3 146.0 245.0 146.0C266.7 145.6 288.3 144.0 310.0 143.9C331.7 143.7 353.3 145.5 375.0 144.9C396.7 144.4 418.3 144.8 440.0 140.7C461.7 136.6 483.3 121.4 505.0 120.4C526.7 119.3 548.3 133.5 570.0 134.2C591.7 135.0 613.3 127.3 635.0 124.6C656.7 122.0 678.3 119.3 700.0 118.2C721.7 117.2 743.3 129.3 765.0 118.2C786.7 107.2 819.2 63.0 830.0 52.0" pathLength="1" fill="none" stroke="url(#tx)" stroke-width="2.5" stroke-linecap="round"/>
+<circle class="ar" cx="50.0" cy="146.0" r="2.5" fill="#d2b8ff"><title>0 in 2025-11</title></circle><text x="50.0" y="170" text-anchor="middle">Nov</text>
+<circle class="ar" cx="115.0" cy="146.0" r="2.5" fill="#d2b8ff"><title>0 in 2025-12</title></circle><text x="115.0" y="170" text-anchor="middle">Dec</text>
+<circle class="ar" cx="180.0" cy="146.0" r="2.5" fill="#d2b8ff"><title>0 in 2026-01</title></circle><text x="180.0" y="170" text-anchor="middle">Jan</text>
+<circle class="ar" cx="245.0" cy="146.0" r="2.5" fill="#d2b8ff"><title>0 in 2026-02</title></circle><text x="245.0" y="170" text-anchor="middle">Feb</text>
+<circle class="ar" cx="310.0" cy="143.9" r="2.5" fill="#d2b8ff"><title>2 in 2026-03</title></circle><text x="310.0" y="170" text-anchor="middle">Mar</text>
+<circle class="ar" cx="375.0" cy="144.9" r="2.5" fill="#d2b8ff"><title>1 in 2026-04</title></circle><text x="375.0" y="170" text-anchor="middle">Apr</text>
+<circle class="ar" cx="440.0" cy="140.7" r="2.5" fill="#d2b8ff"><title>5 in 2026-05</title></circle><text x="440.0" y="170" text-anchor="middle">May</text>
+<circle class="ar" cx="505.0" cy="120.4" r="2.5" fill="#d2b8ff"><title>24 in 2026-06</title></circle><text x="505.0" y="170" text-anchor="middle">Jun</text>
+<circle class="ar" cx="570.0" cy="134.2" r="2.5" fill="#d2b8ff"><title>11 in 2026-07</title></circle><text x="570.0" y="170" text-anchor="middle">Jul</text>
+<circle class="ar" cx="635.0" cy="124.6" r="2.5" fill="#d2b8ff"><title>20 in 2026-08</title></circle><text x="635.0" y="170" text-anchor="middle">Aug</text>
+<circle class="ar" cx="700.0" cy="118.2" r="2.5" fill="#d2b8ff"><title>26 in 2026-09</title></circle><text x="700.0" y="170" text-anchor="middle">Sep</text>
+<circle class="ar" cx="765.0" cy="118.2" r="2.5" fill="#d2b8ff"><title>26 in 2026-10</title></circle><text x="765.0" y="170" text-anchor="middle">Oct</text>
+<circle class="ar" cx="830.0" cy="52.0" r="4.5" fill="#f778ba"><title>88 in 2026-11</title></circle><text x="830.0" y="170" text-anchor="middle">Nov</text>
+<text class="ar" x="830.0" y="42.0" text-anchor="middle" style="fill:#f778ba">88</text>
+</svg>

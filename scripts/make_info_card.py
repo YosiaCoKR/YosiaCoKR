@@ -5,6 +5,8 @@ import re
 import textwrap
 from xml.sax.saxutils import escape
 
+from theme import frame, sparkle
+
 TITLE = "yosiacokr@github"
 ROWS = [
     ("Name", "Yosia Sipahutar"),
@@ -48,11 +50,12 @@ anim = (
 out = [
     f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">',
     f"<style>text{{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:14px}}{anim}</style>",
-    f'<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="8" fill="#0d1117" stroke="#30363d"/>',
+    frame(W, H),
+    sparkle(W - 28, 22, 7, 0),
     '<circle cx="20" cy="20" r="6" fill="#ff5f56"/><circle cx="40" cy="20" r="6" fill="#ffbd2e"/>'
     '<circle cx="60" cy="20" r="6" fill="#27c93f"/>',
-    f'<text x="20" y="56" fill="#3fb950" font-weight="bold">{TITLE}</text>',
-    f'<line x1="20" y1="64" x2="{W - 20}" y2="64" stroke="#30363d"/>',
+    f'<text x="20" y="56" fill="url(#tx)" font-weight="bold" style="font-size:16px">{TITLE}</text>',
+    f'<rect x="20" y="64" width="{W - 40}" height="1" fill="url(#tx)"/>',
 ]
 for n, (i, key, val) in enumerate(LINES):
     delay = "" if STATIC else f' style="animation-delay:{0.3 + n * 0.15:.2f}s"'

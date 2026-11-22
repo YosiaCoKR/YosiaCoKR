@@ -2,8 +2,10 @@
 
 from xml.sax.saxutils import escape
 
+from theme import frame, sparkle
+
 LINES = [  # (text, font size, color)
-    ("Hi, I'm Yosia Sipahutar", 30, "#3fb950"),
+    ("Hi, I'm Yosia Sipahutar", 30, "url(#tx)"),
     ("Student @ Tarumanagara University · Jakarta", 16, "#c9d1d9"),
     (
         "Machine Learning · Software Development · AI · Data Science, · Deep Learning",
@@ -15,7 +17,8 @@ W, CPS = 860, 28  # width, typed characters per second
 
 out = [
     f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} 130" width="{W}" height="130">',
-    f'<rect x=".5" y=".5" width="{W - 1}" height="129" rx="8" fill="#0d1117" stroke="#30363d"/>',
+    frame(W, 130),
+    *(sparkle(x, y, s, d) for x, y, s, d in ((48, 34, 7, 0), (812, 30, 9, 0.8), (30, 98, 5, 1.6), (838, 102, 6, 0.4))),
     '<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="start">',
 ]
 t, y = 0.3, 0
@@ -34,7 +37,7 @@ for i, (text, size, color) in enumerate(LINES):
     t = end + 0.25
 # blinking cursor after the last line
 out.append(
-    f'<rect x="{x + wide + 4:.1f}" y="{y - size + 2}" width="{size * 0.6:.1f}" height="{size}" fill="#3fb950">'
+    f'<rect x="{x + wide + 4:.1f}" y="{y - size + 2}" width="{size * 0.6:.1f}" height="{size}" fill="#f778ba">'
     f'<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>'
 )
 out.append("</g></svg>")

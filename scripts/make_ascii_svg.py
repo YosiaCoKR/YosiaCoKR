@@ -3,6 +3,7 @@
 from xml.sax.saxutils import escape
 
 from PIL import Image
+from theme import PASTEL, frame, gradient
 
 RAMP = " .`:-=+*cs#%@"  # bright (sparse) -> dark (dense); leading space clears the bg
 COLS = 100
@@ -29,12 +30,12 @@ for y in range(rows):
 W, H = COLS * CW + 20, rows * LH + 20 + BAR
 out = [
     f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.0f} {H}" width="{W:.0f}" height="{H}">',
-    f'<rect x=".5" y=".5" width="{W - 1:.0f}" height="{H - 1}" rx="8" fill="#0d1117" stroke="#30363d"/>',
+    frame(round(W), H, gradient("pg", round(W), H, user=True, colors=PASTEL)),  # portrait fades pink -> blue
     '<circle cx="20" cy="18" r="6" fill="#ff5f56"/><circle cx="40" cy="18" r="6" fill="#ffbd2e"/>'
     '<circle cx="60" cy="18" r="6" fill="#27c93f"/>',
     f'<text x="{W / 2:.0f}" y="22" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" '
     f'font-size="12" fill="#8b949e">portrait.txt</text>',
-    f'<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="{FONT}" fill="#c9d1d9" xml:space="preserve">',
+    f'<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="{FONT}" fill="url(#pg)" xml:space="preserve">',
 ]
 for y, line in enumerate(lines):
     if not line:
@@ -45,7 +46,7 @@ for y, line in enumerate(lines):
         f'<clipPath id="r{y}"><rect x="10" y="{ty}" height="{LH}" width="{wide}">'
         f'<animate attributeName="width" values="0;0;{wide}" keyTimes="0;{k:.3f};1" dur="{end:.2f}s" fill="freeze"/></rect></clipPath>'
         f'<text x="10" y="{ty + FONT}" textLength="{wide:.1f}" lengthAdjust="spacingAndGlyphs" clip-path="url(#r{y})">{escape(line)}</text>'
-        f'<rect y="{ty}" width="{CW}" height="{LH}" fill="#c9d1d9" opacity="0">'
+        f'<rect y="{ty}" width="{CW}" height="{LH}" fill="#f778ba" opacity="0">'
         f'<animate attributeName="x" from="10" to="{10 + wide}" begin="{begin:.2f}s" dur="{ROW_DUR}s" fill="freeze"/>'
         f'<set attributeName="opacity" to="1" begin="{begin:.2f}s" dur="{ROW_DUR}s"/></rect>'
     )

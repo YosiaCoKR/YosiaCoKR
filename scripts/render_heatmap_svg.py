@@ -2,7 +2,9 @@
 
 import json
 
-PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]  # GitHub levels 0-4
+from theme import frame
+
+PALETTE = ["#161b22", "#3d2148", "#6e3a8e", "#b55fc7", "#f778ba"]  # levels 0-4, purple -> pink
 CELL, GAP, LEFT, TOP = 12, 3, 34, 30
 STEP = CELL + GAP
 MONTHS = [
@@ -30,7 +32,7 @@ out = [
     "<style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px;fill:#8b949e}"
     ".c{animation:in .35s ease-out both}"
     "@keyframes in{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}</style>",
-    f'<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="8" fill="#0d1117" stroke="#30363d"/>',
+    frame(W, H),
 ]
 
 for i, label in ((1, "Mon"), (3, "Wed"), (5, "Fri")):

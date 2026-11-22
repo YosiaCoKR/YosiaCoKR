@@ -1,7 +1,6 @@
 """Write info-card.svg, a neofetch-style panel. STATIC=1 emits a frozen frame for previews."""
 
 import os
-import re
 import textwrap
 from xml.sax.saxutils import escape
 
@@ -29,16 +28,6 @@ LINES = [
     for j, part in enumerate(textwrap.wrap(val, 40) or [""])
 ]
 H = TOP + LH * len(LINES) + 64
-if os.path.exists(
-    "ascii.svg"
-):  # stretch to the portrait's rendered height (370px column)
-    aw, ah = map(
-        float,
-        re.search(
-            r'viewBox="0 0 ([\d.]+) ([\d.]+)"', open("ascii.svg").read()
-        ).groups(),
-    )
-    H = max(H, round(370 * ah / aw * W / 490))
 anim = (
     ""
     if STATIC

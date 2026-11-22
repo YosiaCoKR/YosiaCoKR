@@ -1,0 +1,36 @@
+{
+ "user": "YosiaCoKR",
+ "repos": 30,
+ "languages": [
+  {
+   "name": "Jupyter Notebook",
+   "bytes": 7874493,
+   "pct": 64.4
+  },
+  {
+   "name": "PowerShell",
+   "bytes": 1322682,
+   "pct": 10.8
+  },
+  {
+   "name": "HTML",
+   "bytes": 906687,
+   "pct": 7.4
+  },
+  {
+   "name": "TypeScript",
+   "bytes": 720926,
+   "pct": 5.9
+  },
+  {
+   "name": "JavaScript",
+   "bytes": 331343,
+   "pct": 2.7
+  },
+  {
+   "name": "CSS",
+   "bytes": 284341,
+   "pct": 2.3
+  }
+ ]
+}

@@ -12,7 +12,7 @@
 <h3><code>yosia@github ~ $ neofetch</code></h3>
 <table>
   <tr>
-    <td valign="top"><img src="./ascii.svg" width="370" alt="ASCII portrait" /></td>
+    <td valign="top"><img src="./languages.svg" width="370" alt="Top languages" /></td>
     <td valign="top"><img src="./info-card.svg" width="490" alt="About me" /></td>
   </tr>
 </table>

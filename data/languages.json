@@ -1,36 +1,36 @@
 {
  "user": "YosiaCoKR",
- "repos": 30,
+ "repos": 31,
  "languages": [
   {
    "name": "Jupyter Notebook",
-   "bytes": 7874493,
-   "pct": 64.4
+   "bytes": 9488812,
+   "pct": 68.1
   },
   {
    "name": "PowerShell",
    "bytes": 1322682,
-   "pct": 10.8
+   "pct": 9.5
   },
   {
    "name": "HTML",
    "bytes": 906687,
-   "pct": 7.4
+   "pct": 6.5
   },
   {
    "name": "TypeScript",
-   "bytes": 720926,
-   "pct": 5.9
+   "bytes": 798581,
+   "pct": 5.7
   },
   {
    "name": "JavaScript",
-   "bytes": 331343,
-   "pct": 2.7
+   "bytes": 331573,
+   "pct": 2.4
   },
   {
    "name": "CSS",
    "bytes": 284341,
-   "pct": 2.3
+   "pct": 2.0
   }
  ]
 }

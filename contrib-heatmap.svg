@@ -384,8 +384,9 @@
 <rect class="c" style="animation-delay:1.300s" x="814" y="30" width="12" height="12" rx="3" fill="#f778ba"><title>23 on 2026-11-22</title></rect>
 <rect class="c" style="animation-delay:1.325s" x="814" y="45" width="12" height="12" rx="3" fill="#f778ba"><title>26 on 2026-11-23</title></rect>
 <rect class="c" style="animation-delay:1.350s" x="814" y="60" width="12" height="12" rx="3" fill="#161b22"><title>0 on 2026-11-24</title></rect>
-<text x="34" y="157" style="fill:#c9d1d9">244 contributions in the last year</text>
-<text x="34" y="175">current streak 4d · longest 6d · best day 26 (2026-11-23)</text>
+<rect class="c" style="animation-delay:1.375s" x="814" y="75" width="12" height="12" rx="3" fill="#f778ba"><title>20 on 2026-11-25</title></rect>
+<text x="34" y="157" style="fill:#c9d1d9">264 contributions in the last year</text>
+<text x="34" y="175">current streak 1d · longest 6d · best day 26 (2026-11-23)</text>
 <text x="697" y="157">Less</text>
 <rect x="731" y="147" width="12" height="12" rx="3" fill="#161b22"/>
 <rect x="746" y="147" width="12" height="12" rx="3" fill="#3d2148"/>

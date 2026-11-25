@@ -5,12 +5,12 @@
   {
    "name": "Jupyter Notebook",
    "bytes": 9488812,
-   "pct": 68.1
+   "pct": 67.8
   },
   {
    "name": "PowerShell",
    "bytes": 1322682,
-   "pct": 9.5
+   "pct": 9.4
   },
   {
    "name": "HTML",
@@ -19,8 +19,8 @@
   },
   {
    "name": "TypeScript",
-   "bytes": 798581,
-   "pct": 5.7
+   "bytes": 866477,
+   "pct": 6.2
   },
   {
    "name": "JavaScript",

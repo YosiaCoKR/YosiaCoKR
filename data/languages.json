@@ -4,33 +4,33 @@
  "languages": [
   {
    "name": "Jupyter Notebook",
-   "bytes": 9488812,
-   "pct": 67.8
+   "bytes": 12866672,
+   "pct": 74.0
   },
   {
    "name": "PowerShell",
    "bytes": 1322682,
-   "pct": 9.4
+   "pct": 7.6
   },
   {
    "name": "HTML",
    "bytes": 906687,
-   "pct": 6.5
+   "pct": 5.2
   },
   {
    "name": "TypeScript",
-   "bytes": 866477,
-   "pct": 6.2
+   "bytes": 872162,
+   "pct": 5.0
   },
   {
    "name": "JavaScript",
    "bytes": 331573,
-   "pct": 2.4
+   "pct": 1.9
   },
   {
    "name": "CSS",
    "bytes": 284341,
-   "pct": 2.0
+   "pct": 1.6
   }
  ]
 }
